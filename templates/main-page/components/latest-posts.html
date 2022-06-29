@@ -5,8 +5,10 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
-           
+        <div class="col-lg-4 col-md-6">
+            {% for post in  posts%}
+                {% include "global-components/card.html" %}
+            {% endfor %}
         </div>
     </div>
 </div>
