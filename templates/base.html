@@ -9,10 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    {% block header %}
+      {% include "main-components/header.html" %}
+    {% endblock header %}
     {% block maincontent %} 
     
     {% endblock maincontent %}
-
+{% block footer %}
+{% include "main-components/footer.html" %}
+{% endblock footer %}
 
   </body>
 </html>
