@@ -2,3 +2,33 @@
     padding: 20px 0;
     border-top: 1px solid rgba(21, 32, 53, 0.1);
 }
+
+.btn-rounded{
+    height:25px;
+    width:75px;
+    border-radius: 30px;
+    border:none;
+    color:white;
+    background-color: #0d6efd;
+}
+
+.card-limit{
+   max-width: 20rem;
+}
+
+.btn-user{
+    width: 30px;
+    height:30px
+}
+
+.fixed-lenght{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+@media screen and (max-width: 400px) {
+    .card-limit{
+        width: none !important;
+     }
+  }
