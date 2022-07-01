@@ -1,6 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.files.storage import FileSystemStorage
 
+
+fs = FileSystemStorage(location='static/src/assets/img/')
 
 STATUS = (
     (0, "Nopublish"),
@@ -26,6 +29,7 @@ class Post(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
     views = models.PositiveIntegerField(default=0)
     categories = models.ManyToManyField(Category, blank=True)
+    image = models.ImageField(blank=True, null=True,storage=fs)
 
     class Meta:
         ordering = ['-created_on']
