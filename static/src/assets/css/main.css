@@ -16,6 +16,10 @@
    max-width: 20rem;
 }
 
+.fix-height-img{
+    max-height: 190px;
+}
+
 .btn-user{
     width: 28px;
     height:28px
@@ -27,8 +31,8 @@
     overflow: hidden; 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .card-limit{
-        width: none !important;
-     }
+      display: none;
+    }
   }

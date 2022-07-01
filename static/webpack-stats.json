@@ -1,35 +1,65 @@
 {
   "status": "done",
   "assets": {
-    "bundle-06b18c9d5c379fec903c.css": {
-      "name": "bundle-06b18c9d5c379fec903c.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-06b18c9d5c379fec903c.css"
+    "bundle-80c728b01262fea1d86b.css": {
+      "name": "bundle-80c728b01262fea1d86b.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-80c728b01262fea1d86b.css"
     },
     "bundle.js": {
       "name": "bundle.js",
       "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle.js"
     },
-    "bundle-3dcdc296a6588276bb98.css": {
-      "name": "bundle-3dcdc296a6588276bb98.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-3dcdc296a6588276bb98.css"
+    "bundle-c9f0664f763b3bc3651f.css": {
+      "name": "bundle-c9f0664f763b3bc3651f.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-c9f0664f763b3bc3651f.css"
     },
-    "bundle-6bb446104eeaaa59c14d.css": {
-      "name": "bundle-6bb446104eeaaa59c14d.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-6bb446104eeaaa59c14d.css"
+    "bundle-1ba99feacb5bb32f3e4e.css": {
+      "name": "bundle-1ba99feacb5bb32f3e4e.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-1ba99feacb5bb32f3e4e.css"
     },
-    "bundle-ef1a45209a32367bb8ed.css": {
-      "name": "bundle-ef1a45209a32367bb8ed.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-ef1a45209a32367bb8ed.css"
+    "bundle-49d0eecc9b88a9918a40.css": {
+      "name": "bundle-49d0eecc9b88a9918a40.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-49d0eecc9b88a9918a40.css"
     },
-    "bundle-80c728b01262fea1d86b.css": {
-      "name": "bundle-80c728b01262fea1d86b.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-80c728b01262fea1d86b.css"
+    "bundle-3a2a23607699663e7a2e.css": {
+      "name": "bundle-3a2a23607699663e7a2e.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-3a2a23607699663e7a2e.css"
+    },
+    "bundle-2c8a5c86a566aa588527.css": {
+      "name": "bundle-2c8a5c86a566aa588527.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-2c8a5c86a566aa588527.css"
+    },
+    "bundle-9ec470e66802becc2df1.css": {
+      "name": "bundle-9ec470e66802becc2df1.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-9ec470e66802becc2df1.css"
+    },
+    "bundle-09c47457fcb0fa710a84.css": {
+      "name": "bundle-09c47457fcb0fa710a84.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-09c47457fcb0fa710a84.css"
+    },
+    "bundle-b6c0f562f9b886618f3a.css": {
+      "name": "bundle-b6c0f562f9b886618f3a.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-b6c0f562f9b886618f3a.css"
+    },
+    "bundle-601ee52ddddcb4fd8f32.css": {
+      "name": "bundle-601ee52ddddcb4fd8f32.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-601ee52ddddcb4fd8f32.css"
+    },
+    "bundle-958585d44146a0f4f3cf.css": {
+      "name": "bundle-958585d44146a0f4f3cf.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-958585d44146a0f4f3cf.css"
+    },
+    "bundle-43e24e115e541d8b0744.css": {
+      "name": "bundle-43e24e115e541d8b0744.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-43e24e115e541d8b0744.css"
     }
   },
   "chunks": {
     "bundle": [
-      "bundle-80c728b01262fea1d86b.css",
+      "bundle-43e24e115e541d8b0744.css",
       "bundle.js"
     ]
-  }
+  },
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nCssSyntaxError\n\n(34:1) /home/fabio/progetti/progettoaereo/my_app/static/src/assets/css/main.css Unclosed block\n\n  32 | }\n  33 | \n> 34 | @media screen and (max-width: 600px) {\n     | ^\n  35 |     ..card-limit{\n  36 |         {\n"
 }

@@ -1,8 +1,8 @@
 <a class="text-black text-decoration-none shadowed" href="{% url 'blog:post-detail' post.slug %}">
 <div class="card card-limit">
   <img
-    src={{post.image}}
-    class="card-img-top img-fluid"
+    src={{post.image.url}}
+    class="card-img-top img-fluid fix-height-img"
     alt="..."
   />
   <div class="card-body">
