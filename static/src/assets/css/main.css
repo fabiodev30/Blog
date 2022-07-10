@@ -1,6 +1,6 @@
 .copyright{
     padding: 20px 0;
-    border-top: 1px solid rgba(21, 32, 53, 0.1);
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .btn-rounded{
@@ -11,11 +11,6 @@
     color:white;
     background-color: #0d6efd;
 }
-
-.card-limit{
-   max-width: 20rem;
-}
-
 .fix-height-img{
     max-height: 190px;
 }
@@ -31,8 +26,16 @@
     overflow: hidden; 
 }
 
-@media screen and (max-width: 600px) {
-    .card-limit{
-      display: none;
-    }
-  }
+.social-links-header:hover{
+    background-color: white;
+    color: #343a40!important;
+    border-radius: 25px;
+}
+
+
+.social-links-footer:hover{
+    background-color: #0d6efd!important;
+    color: white!important;
+}
+
+

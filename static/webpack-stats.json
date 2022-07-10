@@ -1,65 +1,71 @@
 {
   "status": "done",
   "assets": {
-    "bundle-80c728b01262fea1d86b.css": {
-      "name": "bundle-80c728b01262fea1d86b.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-80c728b01262fea1d86b.css"
+    "bundle-d9604f74b8ff042b2dfa.css": {
+      "name": "bundle-d9604f74b8ff042b2dfa.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-d9604f74b8ff042b2dfa.css"
     },
     "bundle.js": {
       "name": "bundle.js",
       "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle.js"
     },
-    "bundle-c9f0664f763b3bc3651f.css": {
-      "name": "bundle-c9f0664f763b3bc3651f.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-c9f0664f763b3bc3651f.css"
+    "bundle-5e0ad9db1c1f93d51494.css": {
+      "name": "bundle-5e0ad9db1c1f93d51494.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-5e0ad9db1c1f93d51494.css"
     },
-    "bundle-1ba99feacb5bb32f3e4e.css": {
-      "name": "bundle-1ba99feacb5bb32f3e4e.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-1ba99feacb5bb32f3e4e.css"
+    "bundle-ce497300c573c7805be1.css": {
+      "name": "bundle-ce497300c573c7805be1.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-ce497300c573c7805be1.css"
     },
-    "bundle-49d0eecc9b88a9918a40.css": {
-      "name": "bundle-49d0eecc9b88a9918a40.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-49d0eecc9b88a9918a40.css"
+    "bundle-591e0cb3e23f37b05a72.css": {
+      "name": "bundle-591e0cb3e23f37b05a72.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-591e0cb3e23f37b05a72.css"
     },
-    "bundle-3a2a23607699663e7a2e.css": {
-      "name": "bundle-3a2a23607699663e7a2e.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-3a2a23607699663e7a2e.css"
+    "bundle-6545980b811843e7d100.css": {
+      "name": "bundle-6545980b811843e7d100.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-6545980b811843e7d100.css"
     },
-    "bundle-2c8a5c86a566aa588527.css": {
-      "name": "bundle-2c8a5c86a566aa588527.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-2c8a5c86a566aa588527.css"
+    "bundle-e50ab012c8c4543f6579.css": {
+      "name": "bundle-e50ab012c8c4543f6579.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-e50ab012c8c4543f6579.css"
     },
-    "bundle-9ec470e66802becc2df1.css": {
-      "name": "bundle-9ec470e66802becc2df1.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-9ec470e66802becc2df1.css"
+    "bundle-e1fe2efd0bfeda2b32f2.css": {
+      "name": "bundle-e1fe2efd0bfeda2b32f2.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-e1fe2efd0bfeda2b32f2.css"
     },
-    "bundle-09c47457fcb0fa710a84.css": {
-      "name": "bundle-09c47457fcb0fa710a84.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-09c47457fcb0fa710a84.css"
+    "bundle-0617c95e6b285b75a503.css": {
+      "name": "bundle-0617c95e6b285b75a503.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-0617c95e6b285b75a503.css"
     },
-    "bundle-b6c0f562f9b886618f3a.css": {
-      "name": "bundle-b6c0f562f9b886618f3a.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-b6c0f562f9b886618f3a.css"
+    "bundle-60ee2b35d8f79c013e07.css": {
+      "name": "bundle-60ee2b35d8f79c013e07.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-60ee2b35d8f79c013e07.css"
     },
-    "bundle-601ee52ddddcb4fd8f32.css": {
-      "name": "bundle-601ee52ddddcb4fd8f32.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-601ee52ddddcb4fd8f32.css"
+    "bundle-a28a2d9f6dddef84dfb9.css": {
+      "name": "bundle-a28a2d9f6dddef84dfb9.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-a28a2d9f6dddef84dfb9.css"
     },
-    "bundle-958585d44146a0f4f3cf.css": {
-      "name": "bundle-958585d44146a0f4f3cf.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-958585d44146a0f4f3cf.css"
+    "bundle-e5afedfb1a09327a4b5b.css": {
+      "name": "bundle-e5afedfb1a09327a4b5b.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-e5afedfb1a09327a4b5b.css"
     },
-    "bundle-43e24e115e541d8b0744.css": {
-      "name": "bundle-43e24e115e541d8b0744.css",
-      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-43e24e115e541d8b0744.css"
+    "bundle-0b32a3e081d4a692f994.css": {
+      "name": "bundle-0b32a3e081d4a692f994.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-0b32a3e081d4a692f994.css"
+    },
+    "bundle-f4ec60eac9179f0c9bb0.css": {
+      "name": "bundle-f4ec60eac9179f0c9bb0.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-f4ec60eac9179f0c9bb0.css"
+    },
+    "bundle-486c063f120a0a51c4cb.css": {
+      "name": "bundle-486c063f120a0a51c4cb.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-486c063f120a0a51c4cb.css"
     }
   },
   "chunks": {
     "bundle": [
-      "bundle-43e24e115e541d8b0744.css",
+      "bundle-486c063f120a0a51c4cb.css",
       "bundle.js"
     ]
-  },
-  "error": "ModuleBuildError",
-  "message": "Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nCssSyntaxError\n\n(34:1) /home/fabio/progetti/progettoaereo/my_app/static/src/assets/css/main.css Unclosed block\n\n  32 | }\n  33 | \n> 34 | @media screen and (max-width: 600px) {\n     | ^\n  35 |     ..card-limit{\n  36 |         {\n"
+  }
 }
