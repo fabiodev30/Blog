@@ -43,3 +43,8 @@
 .shadowed{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.lateral-widget-img {
+    width: 100px;
+    height: 100px;
+}
