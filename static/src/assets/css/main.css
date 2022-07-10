@@ -48,3 +48,8 @@
     width: 100px;
     height: 100px;
 }
+
+.btn-success{
+    background-color: #c32aa3!important;
+    border-color: #c32aa3!important;
+}
