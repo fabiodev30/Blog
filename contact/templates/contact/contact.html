@@ -57,7 +57,15 @@
         </form>
       </div></div>
     </div>
-    <div class="col"></div>
+    <div class="col-lg-4">
+        {% comment %} inizio seconda colonna {% endcomment %}
+      <div class="mt-4">
+        {% include "global-components/card-presentation.html" %}
+      </div>
+      {% include "global-components/card-latest-post.html" %}
+      {% include "global-components/card-categories.html" %}
+
+    </div>
   </div>
 </div>
 {% endblock maincontent %}

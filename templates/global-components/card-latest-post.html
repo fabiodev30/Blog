@@ -1,0 +1,20 @@
+<div class="card shadowed mb-3">
+    <div class="container pt-4 pb-4">
+      <h5>Latest Post</h5>
+      {% for post in latest_posts %}
+      <div class="row">
+        <div class="col-4">
+          <img src={{post.image.url}} class="img-fluid p-1">
+        </div>
+        <div class="col-8">
+          <h6 class="pt-1">
+            <a href="{% url 'blog:post-detail' post.slug %}" class="text-black text-decoration-none">{{post.title}}</a>
+          </h6>
+          <p><i class="fa-solid fa-clock"></i> {{post.created_on|date:"M d, Y" }}</p>
+        </div>
+      </div>
+      {% endfor %}
+      
+    </div>
+
+  </div>
