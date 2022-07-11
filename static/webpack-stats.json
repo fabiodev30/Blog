@@ -24,11 +24,15 @@
     "bundle-dac0d2eb27f37d2af088.css": {
       "name": "bundle-dac0d2eb27f37d2af088.css",
       "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-dac0d2eb27f37d2af088.css"
+    },
+    "bundle-a797eb4b1836a13b3133.css": {
+      "name": "bundle-a797eb4b1836a13b3133.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-a797eb4b1836a13b3133.css"
     }
   },
   "chunks": {
     "bundle": [
-      "bundle-dac0d2eb27f37d2af088.css",
+      "bundle-a797eb4b1836a13b3133.css",
       "bundle.js"
     ]
   }

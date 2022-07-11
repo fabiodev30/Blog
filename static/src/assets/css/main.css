@@ -58,3 +58,10 @@
     line-height: 200%;
     font-family: inherit;
 }
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+   }
