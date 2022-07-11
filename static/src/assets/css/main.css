@@ -54,6 +54,7 @@
     border-color: #c32aa3!important;
 }
 
-.line-height-description-card{
+.description-card{
     line-height: 200%;
+    font-family: inherit;
 }

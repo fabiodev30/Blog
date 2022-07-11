@@ -16,11 +16,19 @@
     "bundle-513eef9705bb03d0d3d0.css": {
       "name": "bundle-513eef9705bb03d0d3d0.css",
       "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-513eef9705bb03d0d3d0.css"
+    },
+    "bundle-d2fe3fb29076c2e058fa.css": {
+      "name": "bundle-d2fe3fb29076c2e058fa.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-d2fe3fb29076c2e058fa.css"
+    },
+    "bundle-dac0d2eb27f37d2af088.css": {
+      "name": "bundle-dac0d2eb27f37d2af088.css",
+      "path": "/home/fabio/progetti/progettoaereo/my_app/static/src/assets/dist/bundle-dac0d2eb27f37d2af088.css"
     }
   },
   "chunks": {
     "bundle": [
-      "bundle-513eef9705bb03d0d3d0.css",
+      "bundle-dac0d2eb27f37d2af088.css",
       "bundle.js"
     ]
   }
