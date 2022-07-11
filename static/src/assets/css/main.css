@@ -53,3 +53,7 @@
     background-color: #c32aa3!important;
     border-color: #c32aa3!important;
 }
+
+.line-height-description-card{
+    line-height: 200%;
+}
