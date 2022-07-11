@@ -5,6 +5,11 @@ from core.models import Category, Post
 
 
 def contact_view(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return render(request, 'contact/success.html')
     form = ContactForm()
     categories = Category.objects.all()
     latest_posts = Post.objects.all()[:2]

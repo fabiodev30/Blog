@@ -6,12 +6,10 @@
         {% comment %} inizio prima colonna {% endcomment %}
       <div class="mt-4 mb-4">
         <div class="card shadowed p-5">
+            <h6>Feel free to contact any time.</h6>
+            <p>Drop Us a Message</p>
         <form action="" method="post">
-          <input
-            type="hidden"
-            name="csrfmiddlewaretoken"
-            value="yTF5g7ceTgkwsOimKxZpuV10DG4a1TWFwQ60pneu047lPvu6kTAlNYPfYEC9G8jq"
-          />
+          {% csrf_token %}
           <tr>
             <th>
               <label for="id_email">Email:</label>
@@ -42,7 +40,7 @@
           </tr>
           <tr>
             <th>
-              <label for="id_message">Message:</label>
+              <label for="id_message" class="mb-1">Message:</label>
             </th>
             <td>
               <textarea
