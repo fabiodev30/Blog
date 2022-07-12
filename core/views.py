@@ -22,10 +22,18 @@ class MainpageView(ListView):
         return render(request, self.template_name, self.get_context())
 
 
-class PostDetailView(View):
+class PostDetailView(DetailView):
+    template_name = "post-page/post-page.html"
+
     def get(self, request, *args, **kwargs):
         post = get_object_or_404(Post, slug=kwargs['slug'])
-        context = {'post': post}
+        categories=Category.objects.all()
+        latest_posts=Post.objects.all()[:2]
+        context = {
+            'post': post,
+            'categories': categories,
+            'latest_posts': latest_posts,
+            }
         return render(request, 'post-page/post-page.html', context)
 
 

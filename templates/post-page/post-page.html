@@ -1,4 +1,22 @@
 {% extends 'base.html' %}
 {% block maincontent %}
-dettaglio post
+{% if post %}
+
+<div class="container">
+    <div class="row mt-5 mb-5">
+        <div class="col-lg-8">
+            {% include "global-components/detail-card.html" %} 
+        </div>
+        <div class="col-lg-4">
+            {% include "global-components/card-presentation.html" %} 
+            {% include "global-components/card-latest-post.html" %} 
+            {% include "global-components/card-categories.html" %}
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endif %}
 {% endblock maincontent %}
