@@ -8,4 +8,5 @@ urlpatterns = [
      path('', MainpageView.as_view(), name='home'),
      path('post/<slug:slug>', PostDetailView.as_view(), name='post-detail'),
      path('about', AboutView.as_view(), name='about'),
+     path("search/", SearchResultsView.as_view(), name="search_results"),
 ]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

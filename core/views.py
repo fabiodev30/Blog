@@ -42,3 +42,18 @@ class AboutView(ListView):
 
     def get(self, request):
         return render(request, self.template_name, self.get_context())
+
+
+class SearchResultsView(ListView):
+    template_name = 'saerch_results/search_results.html'
+    def get_context(self):
+        categories=Category.objects.all()
+        latest_posts=Post.objects.all()[:2]
+        context = {
+            'categories': categories,
+            'latest_posts': latest_posts
+        }
+        return context
+
+    def get(self, request):
+        return render(request, self.template_name, self.get_context())
