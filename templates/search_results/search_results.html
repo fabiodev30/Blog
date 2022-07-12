@@ -23,10 +23,17 @@
 </div>
 {% else %}
 
-<div class="conatiner">
-  <div class="row">
-    <div class="col"></div>
-    <div class="col"></div>
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col">
+      <h4>Search Result : {{query}}</h4>
+      <h1>No posts related for {{query}}</h1>
+    </div>
+    <div class="col-lg-4">
+      {% include "global-components/card-presentation.html" %} 
+      {% include "global-components/card-latest-post.html" %} 
+      {% include "global-components/card-categories.html" %}
+    </div>
   </div>
 </div>
 
