@@ -65,3 +65,8 @@ input[type=text], input[type=email], textarea {
     margin: 8px 0;
     display: inline-block;
    }
+
+.max-height-detail-post-image{
+    max-height: 500px;
+
+}
