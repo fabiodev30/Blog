@@ -1,5 +1,5 @@
 from django.urls import path,include
-from .views import AboutView, MainpageView,PostDetailView
+from .views import AboutView, MainpageView,PostDetailView, SearchResultsView
 from django.conf.urls.static import static
 from django.conf import settings
 
