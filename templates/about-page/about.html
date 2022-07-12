@@ -1,12 +1,12 @@
 {% extends 'base.html' %} 
 {% block maincontent %}
 <div class="container">
-  <div class="row mt-5">
+  <div class="row mt-5 mb-4">
     <div class="col-lg-8">
       {% comment %} Inizio prima colonna  {% endcomment %}
         <h4>Riguardo noi</h4>
 
-        <div class="card shadowed mb-4">
+        <div class="card shadowed">
           <img src="img/about-us.jpg" class="card-img-top img-fluid shadowed" alt="...">
             <div class="card-body">
               <h5 class="card-title pt-3">Thank you for checking my blog</h5>
@@ -35,9 +35,7 @@ Fabio Angeli
     </div>
     <div class="col-lg-4">
       {% comment %} inizio seconda colonna {% endcomment %}
-      <div class="mt-4">
       {% include "global-components/card-presentation.html" %}
-    </div>
     {% include "global-components/card-latest-post.html" %}
     {% include "global-components/card-categories.html" %}
         

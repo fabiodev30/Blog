@@ -2,8 +2,9 @@
 {% block maincontent %} 
 {% if post_searched %}
 <div class="container">
-  <div class="row mt-4">
+  <div class="row mt-5 mb-5">
     <div class="col-lg-8">
+      <h4>Search Result : {{query}}</h4>
       <div class="row">
         {% for post in post_searched %}
         <div class="col-lg-6">
