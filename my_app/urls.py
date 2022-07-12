@@ -6,5 +6,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')),
     path('contact/', contact_views.contact_view, name='contact'),
-    re_path('markdownx/', include('markdownx.urls')),
 ]

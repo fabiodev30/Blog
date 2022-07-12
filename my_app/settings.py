@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'webpack_loader',
     'contact',
-    'markdownx',
 ]
 
 MIDDLEWARE = [
