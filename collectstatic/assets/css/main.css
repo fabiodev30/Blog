@@ -1,0 +1,72 @@
+.copyright{
+    padding: 20px 0;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.btn-rounded{
+    height:25px;
+    width:75px;
+    border-radius: 30px;
+    border:none;
+    color:white;
+    background-color: #0d6efd;
+}
+.fix-height-img{
+    max-height: 190px;
+}
+
+.btn-user{
+    width: 28px;
+    height:28px
+}
+
+.fixed-lenght{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.social-links-header:hover{
+    background-color: white;
+    color: #343a40!important;
+    border-radius: 25px;
+}
+
+
+.social-links-footer:hover{
+    background-color: #0d6efd!important;
+    color: white!important;
+    border-color: #0d6efd!important;
+}
+
+
+.shadowed{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.lateral-widget-img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-success{
+    background-color: #c32aa3!important;
+    border-color: #c32aa3!important;
+}
+
+.description-card{
+    line-height: 200%;
+    font-family: inherit;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+   }
+
+.max-height-detail-post-image{
+    max-height: 500px;
+
+}
