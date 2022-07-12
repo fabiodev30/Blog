@@ -162,3 +162,4 @@ cython_debug/
 static/node_modules/*
 node_modules/*
 static/src/assets/dist/*
+static/webpack-stats.json
