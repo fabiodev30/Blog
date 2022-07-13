@@ -1,7 +1,8 @@
+{% load markdown_extras %}
 <div class="card shadowed">
   <img src={{post.image.url}} class="card-img-top img-fluid max-height-detail-post-image shadowed" alt="..." />
   <div class="card-body">
     <h2 class="card-title">{{post.title}}</h2>
-    <p class="card-text">{{post.content}}</p>
+    <p class="card-text">{{post.content | markdown | safe }}</p>
   </div>
 </div>

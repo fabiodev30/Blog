@@ -1,3 +1,4 @@
+{% load remove_markdown %}
 <a class="text-black text-decoration-none shadowed" href="{% url 'blog:post-detail' post.slug %}">
 <div class="card card-limit mb-2 shadowed">
   <img
@@ -11,7 +12,7 @@
       <h5 class="card-title">{{post.title}}</h5>
       <h6 class="mb-3"><i class="fa-solid fa-eye"></i> {{post.views}} views</h6>
     <p class="card-text fixed-lenght mb-2">
-      {{post.content}}
+      {{post.content | nomarkdown | safe}}
     </p>
   <div class="row">
     <div class="col-6">
