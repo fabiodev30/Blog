@@ -5,16 +5,17 @@ from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormView
 from requests import post
-from .models import Category, Post
+from .models import Category, Post, get_latest_posts,   get_popular_posts
 
 
 class MainpageView(ListView):
     template_name = "main-page/mainpage.html"
 
     def get_context(self):
-        posts= Post.objects.all()
         context = {
-            'posts':posts,
+           'latest_posts': get_latest_posts(),
+           'popular_posts': get_popular_posts(),
+
         }
         return context
 
@@ -27,13 +28,13 @@ class PostDetailView(DetailView):
 
     def get(self, request, *args, **kwargs):
         post = get_object_or_404(Post, slug=kwargs['slug'])
-        categories=Category.objects.all()
-        latest_posts=Post.objects.all()[:2]
+        categories = Category.objects.all()
+        latest_posts = Post.objects.all()[:2]
         context = {
             'post': post,
             'categories': categories,
             'latest_posts': latest_posts,
-            }
+        }
         return render(request, 'post-page/post-page.html', context)
 
 
@@ -41,8 +42,8 @@ class AboutView(ListView):
     template_name = "about-page/about.html"
 
     def get_context(self):
-        categories=Category.objects.all()
-        latest_posts=Post.objects.all()[:2]
+        categories = Category.objects.all()
+        latest_posts = Post.objects.all()[:2]
         context = {
             'categories': categories,
             'latest_posts': latest_posts
@@ -55,14 +56,15 @@ class AboutView(ListView):
 
 class SearchResultsView(ListView):
     template_name = 'search_results/search_results.html'
+
     def get_context(self):
         query = self.request.GET.get("q")
         object_list = Post.objects.filter(title__icontains=query)
-        categories=Category.objects.all()
-        latest_posts=Post.objects.all()[:2]
+        categories = Category.objects.all()
+        latest_posts = Post.objects.all()[:2]
         context = {
             'query': query,
-            'post_searched':object_list,
+            'post_searched': object_list,
             'categories': categories,
             'latest_posts': latest_posts
         }

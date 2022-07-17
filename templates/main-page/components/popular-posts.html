@@ -1,12 +1,12 @@
 <div class="container mb-4">
-    {% if posts %}
+    {% if popular_posts %}
     <div class="row mb-3">
       <div class="col-12 text-center">
         <h1>Popular Post</h1>
       </div>
     </div>
     <div class="row justify-content-center">
-      {% for post in posts %}
+      {% for post in popular_posts %}
       <div class="col-lg-4 col-md-6 col-12">
         {% include "global-components/card.html" %}
       </div>
