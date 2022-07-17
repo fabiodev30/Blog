@@ -9,3 +9,4 @@ psutil==5.9.0
 requests==2.25.1
 psycopg2==2.9.3
 psycopg2-binary==2.9.3
+whitenoise==6.2.0
