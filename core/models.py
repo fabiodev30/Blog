@@ -12,10 +12,11 @@ class Category(models.Model):
 
 class PostManager(models.Manager):
     def published(self):
-        return self.get_queryset().filter(published=False)
+        return self.get_queryset().filter(published=True)
 
 
 class Post(models.Model):
+    objects=PostManager()
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(
